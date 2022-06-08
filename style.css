@@ -1,0 +1,22 @@
+/* COLOUR PALETTE
+Yellow - #FFF885
+Green - #85FFBB
+Blue-Purple - #858CFF
+Pink - #FF85C9
+*/
+
+body {
+    background-color: #FFF885;
+    color: #858CFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main-heading {
+    text-align: center;
+}
+.home-button {
+    text-align: right;
+}
+.bottom {
+    margin-bottom: 30em;
+}
