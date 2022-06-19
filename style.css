@@ -35,6 +35,20 @@ img {
     width: auto;
     height: 15em;
 }
+
+/* selects */
+.flex-container {
+    display: flex;
+}
+.flex-container a {
+    border: solid #858CFF 0.1em;
+    flex: 1 1 0%;
+    text-align: center;
+}
+
 /* .space {
     border: solid red 0.1em;
 } */
+
+/* option + shift + a to comment */
+/* command + / to comment out a line */
