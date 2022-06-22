@@ -37,13 +37,37 @@ img {
 }
 
 /* selects */
-.flex-container {
+.nav-bar {
     display: flex;
+    /* margin: 1em; */
 }
-.flex-container a {
+.nav-bar a {
     border: solid #858CFF 0.1em;
     flex: 1 1 0%;
     text-align: center;
+    font-size: large;
+    padding: 0.5em;
+}
+
+.mid-page {
+    display: flex;
+}
+
+
+.recipies-list {
+    flex-grow: 1;
+    border:#858CFF solid 0.1em;
+    text-align: center;
+    margin: 1em;
+}
+
+.mid-page div img {
+    margin: 0.5em;
+    float: right;
+}
+
+.content {
+    flex: 5 1 0%;
 }
 
 /* .space {
